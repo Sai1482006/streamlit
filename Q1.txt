@@ -1,0 +1,10 @@
+1. Accept project marks, internal marks, external marks from student
+2. Passmarks is 50 in each subject
+3. Calculate total score if student got more than or equal to 50 in each subject.
+
+total_score= 70% on project + 20% on external
+                  +
+            10% on internal
+  Print A grade if score is 90+
+        B grade if score b/w 70 - 90
+        C grade if score b/w 50 -70              

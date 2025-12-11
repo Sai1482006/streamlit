@@ -1,0 +1,15 @@
+project=int(input("Enter project marks"))     #50
+internal=int(input("Enter internal marks"))   # 50
+external=int(input("Enter external marks"))   # 50
+if project>=50 and internal>=50 and external>=50:
+    total=(project*70)/100+ (external*20)/100+(internal*10)/100
+    print("Total score is: ",total)
+    if total>=90:
+        print("A grade")
+    elif total>=70:
+        print("B grade")
+    else:
+        print("C grade")
+    
+else:
+    print("Hello")
